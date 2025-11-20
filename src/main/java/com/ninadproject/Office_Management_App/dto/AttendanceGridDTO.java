@@ -29,44 +29,6 @@ public class AttendanceGridDTO {
         this.absentCount = a;
         this.holidayCount = h;
     }
-    
-	public Long getEmployeeId() {
-		return employeeId;
-	}
-	public void setEmployeeId(Long employeeId) {
-		this.employeeId = employeeId;
-	}
-	public String getEmployeeName() {
-		return employeeName;
-	}
-	public void setEmployeeName(String employeeName) {
-		this.employeeName = employeeName;
-	}
-	
-	public Map<String, String> getAttendance() {
-		return attendance;
-	}
-	public void setAttendance(Map<String, String> attendance) {
-		this.attendance = attendance;
-	}
-	public int getPresentCount() {
-		return presentCount;
-	}
-	public void setPresentCount(int presentCount) {
-		this.presentCount = presentCount;
-	}
-	public int getAbsentCount() {
-		return absentCount;
-	}
-	public void setAbsentCount(int absentCount) {
-		this.absentCount = absentCount;
-	}
-	public int getHolidayCount() {
-		return holidayCount;
-	}
-	public void setHolidayCount(int holidayCount) {
-		this.holidayCount = holidayCount;
-	}
-    
-    
+
+
 }

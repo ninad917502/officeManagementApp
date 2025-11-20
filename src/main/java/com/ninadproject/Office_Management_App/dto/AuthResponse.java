@@ -9,8 +9,6 @@ public class AuthResponse {
 
 	private String token;
 
-
-
 	public AuthResponse(String token) {
 		super();
 		this.token = token;
